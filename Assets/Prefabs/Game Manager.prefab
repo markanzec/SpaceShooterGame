@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1640577555059827774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8386315441831416895}
+  - component: {fileID: 454461624597247635}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8386315441831416895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640577555059827774}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4340505, y: -0.18628994, z: -0.092087686}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &454461624597247635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640577555059827774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5097b8834ac7c4789b471b00539ce6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spaceShip: {fileID: 7528590948485881751, guid: 2c4a2b5450962ed4eb280d09d6dd3868, type: 3}
+  asteroidLarge: {fileID: 4052918785283762848, guid: 4cedc545537e9c841b603f81d783935a, type: 3}
+  asteroidMedium: {fileID: 8727127501859233020, guid: 0e796f54cbf7bbd46ab7fff91959dfff, type: 3}
+  ufo: {fileID: 6385904487229936415, guid: 0cb3b15c30a53a248992335203506427, type: 3}
+  levelText: {fileID: 0}
+  scoreText: {fileID: 0}
+  livesText: {fileID: 0}
+  damageText: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  newHighScoreText: {fileID: 0}
+  pausePanel: {fileID: 0}
+  mediumAsteroidRadius: 0.36
+  largeAsteroidRadius: 0.88
